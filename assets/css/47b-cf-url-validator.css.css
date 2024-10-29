@@ -1,0 +1,24 @@
+/**
+ * 47B CF URL Validator Styles
+ * Version: 1.0.1
+ */
+
+ .b47-cf-url-validator-error {
+    color: #dc3232;
+    margin: 10px 0;
+    padding: 8px 12px;
+    border-left: 4px solid #dc3232;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    display: none;
+}
+
+.b47-cf-url-error {
+    border-color: #dc3232 !important;
+}
+
+/* Ensure our styles take precedence */
+.wpcf7-form input.b47-cf-url-error,
+.wpcf7-form textarea.b47-cf-url-error {
+    border-color: #dc3232 !important;
+}
